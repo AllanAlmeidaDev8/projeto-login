@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Reset</title>
+</head>
+<body>
+    <main id="resettela">
+        <h1>Reset de Senha</h1>
+        <section>
+            <form action="login.php" method="post" autocomplete="on">
+                <div class="campo2">
+                
+                    <label for="iemail">Seu email</label>
+                    <input type="email" name="email" id="iemail" placeholder="Digite seu email@assim"autocomplete="email" required maxlength="30">
+                    
+                </div>
+                <div><br>
+                    <label for="iresent">Senha.  </label>
+                    <input type="password" name="resent" id="iresent" placeholder="repita sua senha igual aqui"required minlength="8" autocomplete="address-level3">
+                </div><br>
+                <div>
+                    <label for="iresent">Repita a senha</label>
+                    <input type="password" name="resent" id="iresent" placeholder="repita sua senha igual aqui"required minlength="8" autocomplete="address-level3">
+                </div><br>
+                <div>
+                    <input id="benviar" type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main> 
+    
+</body>
+</html>
